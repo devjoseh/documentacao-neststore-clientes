@@ -59,10 +59,10 @@ Configurações relacionadas a cargos e canais para gerenciamento de comandos e 
 
 ### Em pergunta1, pergunta2, etc:
 
-`titulo:` Título da pergunta.
-`placeholder:` Mensagem que fica no campo do texto.
-`maxCarac:` Quantia máxima de caracteres que podem ser digitados.
-`minCarac:` Quantia mínima de caracteres que podem ser digitados.
+`titulo:` Título da pergunta. <br>
+`placeholder:` Mensagem que fica no campo do texto. <br>
+`maxCarac:` Quantia máxima de caracteres que podem ser digitados. <br>
+`minCarac:` Quantia mínima de caracteres que podem ser digitados. <br>
 
 ### msgFormularioAprovado e msgFormularioNegado
 
@@ -70,13 +70,13 @@ Mensagens que são enviadas no privado do usuário quando o formulário é aceit
 
 ### Em msgFormatadaCanal:
 
-`linkImagem:` Link da imagem com .png no final do link (recomendado upar a imagem no imgur).
-`textoBoasVindas:` Texto que você pode usar para dar boas-vindas ao usuário, exemplo: Olá! {member}.
-`textoDescricao:` Texto que você pode usar para explicar alguma coisa ou só complementar as boas-vindas.
-`titulo1:` Texto da pergunta de Nome e ID.
-`titulo2:` Texto da pergunta de Tipo de Conteúdo.
-`titulo3:` Texto da pergunta de Rede Social.
-`titulo4:` Texto da pergunta de Link.
+`linkImagem:` Link da imagem com .png no final do link (recomendado upar a imagem no imgur).<br>
+`textoBoasVindas:` Texto que você pode usar para dar boas-vindas ao usuário, exemplo: Olá! {member}.<br>
+`textoDescricao:` Texto que você pode usar para explicar alguma coisa ou só complementar as boas-vindas.<br>
+`titulo1:` Texto da pergunta de Nome e ID.<br>
+`titulo2:` Texto da pergunta de Tipo de Conteúdo.<br>
+`titulo3:` Texto da pergunta de Rede Social.<br>
+`titulo4:` Texto da pergunta de Link.<br>
 
 ## `embeds.js`
 
@@ -88,12 +88,12 @@ em botoes, você deve colocar os textos dos botões que aparecem nas embeds onde
 
 Vá para a pasta `events > client > ready.js` para configurar o status do bot.
 
-`activities:` Mensagens exibidas no status do bot.
-`status:` Status aleatórios que aparecerão no bot (online, não perturbe, ausente).
-`timer:` Tempo em segundos para a troca de mensagens e status.
+`activities:` Mensagens exibidas no status do bot.<br>
+`status:` Status aleatórios que aparecerão no bot (online, não perturbe, ausente).<br>
+`timer:` Tempo em segundos para a troca de mensagens e status.<br>
 
-`online` = status online
-`dnd` = status não perturbe
-`idle` = status ausente
+`online` = status online<br>
+`dnd` = status não perturbe<br>
+`idle` = status ausente<br>
 
 em let timer é o tempo que cada mensagem e status serão trocados, o tempo deve ser configurado em segundos
