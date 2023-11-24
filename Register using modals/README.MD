@@ -40,20 +40,20 @@ Configurações relacionadas a cargos e canais para gerenciamento de comandos e 
 `cargosCriarCanais:` Cargos que podem usar o sistema de criar canais por formulário. <br>
 `cargosSuporte:` Cargos que podem ver os canais criados pelo formulário. <br>
 `cargosRegistro:` Cargos que serão adicionados às pessoas que tiverem seus formulários aceitos. <br>
-`cargosAnaliseForms:` Cargos que poderão responder os formulários enviados.
-`canalErros:` Canal que será enviado as mensagens de erros do bot.
-`canalFormulario:` Canal que será enviado as mensagens dos formulários.
-`canalParceiros:` Canal que será enviado as mensagens dos formulários de parceiros.
-`categoriaCanais:` Categoria onde os canais dos formulários aceitos serão criados.
-`canalLogs:` Canal onde as logs de cargos removidos serão enviadas.
-`cargosParceiros:` IDs dos cargos que serão adicionados às pessoas que tiverem o formulário de parceiros aprovado.
-`formularioNickname:` Texto que será adicionado aos parceiros.
-`parceiroNickname:` Texto que será adicionado aos parceiros.
+`cargosAnaliseForms:` Cargos que poderão responder os formulários enviados. <br>
+`canalErros:` Canal que será enviado as mensagens de erros do bot. <br>
+`canalFormulario:` Canal que será enviado as mensagens dos formulários. <br>
+`canalParceiros:` Canal que será enviado as mensagens dos formulários de parceiros. <br>
+`categoriaCanais:` Categoria onde os canais dos formulários aceitos serão criados. <br>
+`canalLogs:` Canal onde as logs de cargos removidos serão enviadas. <br>
+`cargosParceiros:` IDs dos cargos que serão adicionados às pessoas que tiverem o formulário de parceiros aprovado. <br>
+`formularioNickname:` Texto que será adicionado aos parceiros. <br>
+`parceiroNickname:` Texto que será adicionado aos parceiros. <br>
 
-`tituloEmbed:` Título da embed que é enviada pelo comando canalembed.
-`mensagemDescricaoEmbed:` Mensagem que fica na descrição da embed que é enviada pelo comando canalembed.
-`emojiBotao:` Emoji que fica no botão da embed que é enviada pelo comando canalembed.
-`mensagemBotao:` Texto que fica no botão da embed que é enviada pelo comando canalembed.
+`tituloEmbed:` Título da embed que é enviada pelo comando canalembed.<br>
+`mensagemDescricaoEmbed:` Mensagem que fica na descrição da embed que é enviada pelo comando canalembed.<br>
+`emojiBotao:` Emoji que fica no botão da embed que é enviada pelo comando canalembed.<br>
+`mensagemBotao:` Texto que fica no botão da embed que é enviada pelo comando canalembed.<br>
 
 `tituloFormulario:` Título que aparece no formulário ao clicar no botão.
 
