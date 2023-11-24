@@ -62,7 +62,7 @@ Configurações relacionadas a cargos e canais para gerenciamento de comandos e 
 `titulo:` Título da pergunta. <br>
 `placeholder:` Mensagem que fica no campo do texto. <br>
 `maxCarac:` Quantia máxima de caracteres que podem ser digitados. <br>
-`minCarac:` Quantia mínima de caracteres que podem ser digitados. <br>
+`minCarac:` Quantia mínima de caracteres que devem ser digitados. <br>
 
 ### msgFormularioAprovado e msgFormularioNegado
 
