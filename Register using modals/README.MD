@@ -3,9 +3,9 @@
 
 # Configuração Inicial
 
-Antes de iniciar o bot em sua máquina local, execute npm install no terminal para instalar todos os módulos necessários.
+Caso deseje iniciar o bot em sua máquina local, digite `npm install` no terminal para instalar todos os módulos necessários.
 
-Utilize o arquivo start.bat para iniciar o bot sem a necessidade do VSCode aberto. Certifique-se de iniciá-lo somente após a instalação de todos os módulos e a configuração de todos os arquivos.
+Utilize o arquivo `start.bat` para iniciar o bot sem a necessidade do VSCode aberto. Certifique-se de iniciá-lo somente após a instalação de todos os módulos e a configuração de todos os arquivos.
 
 # Arquivos na Pasta "Configs"
 
