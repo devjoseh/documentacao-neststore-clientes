@@ -36,10 +36,10 @@ Utilize o arquivo start.bat para iniciar o bot sem a necessidade do VSCode abert
 
 Configurações relacionadas a cargos e canais para gerenciamento de comandos e formulários.
 
-`cargosAutorizadosComandos:` Cargos que poderão utilizar todos os comandos.
-`cargosCriarCanais:` Cargos que podem usar o sistema de criar canais por formulário.
-`cargosSuporte:` Cargos que podem ver os canais criados pelo formulário.
-`cargosRegistro:` Cargos que serão adicionados às pessoas que tiverem seus formulários aceitos.
+`cargosAutorizadosComandos:` Cargos que poderão utilizar todos os comandos. <br>
+`cargosCriarCanais:` Cargos que podem usar o sistema de criar canais por formulário. <br>
+`cargosSuporte:` Cargos que podem ver os canais criados pelo formulário. <br>
+`cargosRegistro:` Cargos que serão adicionados às pessoas que tiverem seus formulários aceitos. <br>
 `cargosAnaliseForms:` Cargos que poderão responder os formulários enviados.
 `canalErros:` Canal que será enviado as mensagens de erros do bot.
 `canalFormulario:` Canal que será enviado as mensagens dos formulários.
