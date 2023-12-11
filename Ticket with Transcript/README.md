@@ -42,7 +42,7 @@ categoria4: Report Bugs
 
 ### Em emojisEmbedsTickets
 
-São os emojis que ficam nos botões de cada categoria. Cada campo corresponde a uma categoria de cima para baixo (da 1 a 4). Você pode utilizar emojis padrões (apenas o emoji, não pode ser, por exemplo :one: ou :moneybag: aperte Windows + . para ver a lista de emojis padrões), emojis não animados do discord <:nomeEmoji:idEmoji> ou emojis animados <a:nomeEmoji:idEmoji>
+São os emojis que ficam nos botões de cada categoria. Cada campo corresponde a uma categoria de cima para baixo (da 1 a 4). Você pode utilizar emojis padrões (apenas o emoji, não pode ser, por exemplo: `:one:` ou `:moneybag:` aperte Windows + . para ver a lista de emojis padrões), emojis não animados do discord <:nomeEmoji:idEmoji> ou emojis animados <a:nomeEmoji:idEmoji>
 
 ### Em emojisTickets
 
