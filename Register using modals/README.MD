@@ -84,7 +84,7 @@ no topo, você verá a configuração "embeds" que é onde você deve colocar o 
 
 em botoes, você deve colocar os textos dos botões que aparecem nas embeds onde ficam os botões dos formulários e também os botões das mensagens dos formulários, no caso, de aprovar e negar
 
-## Status do Bot
+# Status do Bot
 
 Vá para a pasta `events > client > ready.js` para configurar o status do bot.
 
