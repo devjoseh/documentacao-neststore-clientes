@@ -50,7 +50,7 @@ Configurações relacionadas a todo o sistema de registro
 `emoji:` Emoji que aparecerá na embed e no nickname dos usuários.<br>
 `texto:` Texto que aparecerá na embed.<br>
 
-## Status do Bot
+# Status do Bot
 
 Vá para a pasta `events > client > ready.js` para configurar o status do bot.
 
