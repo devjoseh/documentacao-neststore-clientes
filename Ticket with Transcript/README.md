@@ -68,7 +68,7 @@ A categoria 1 está configurada como Suporte, então a mensagem pode ser:
 
 "Suporte relacionado a problemas encontrados no servidor"
 
-## Status do Bot
+# Status do Bot
 
 Vá para a pasta `events > client > ready.js` para configurar o status do bot.
 
