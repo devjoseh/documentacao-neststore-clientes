@@ -142,7 +142,7 @@ const firebaseConfig = {
 7. O código de acesso é o código `Access Token`
 8. **ATENÇÃO: NÃO COMPARTILHE ESTE TOKEN COM NINGUÉM**
 
-## Status do Bot
+# Status do Bot
 
 Vá para a pasta `events > client > ready.js` para configurar o status do bot.
 
