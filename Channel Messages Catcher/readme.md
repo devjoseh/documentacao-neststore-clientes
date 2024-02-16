@@ -1,4 +1,4 @@
-R# Bem-Vindo(a)
+# Bem-Vindo(a)
 ## 👑 _Documentação - Channel Messages Catcher - V14.x_
 
 # Configuração Inicial
