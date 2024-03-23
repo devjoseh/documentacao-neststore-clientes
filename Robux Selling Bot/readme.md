@@ -61,18 +61,18 @@ Todas as configurações dos emojis usados pelo bot. Arquivo já configurado, ma
 Configurações relacionadas a todo o sistema da loja.
 
 `access_token:` Token de acesso da sua conta do Mercado Pago (Credencial). <br>
-`cargoCliente` Cargo que será adicinado a pessoa quando concluir o pagamento de algum produto.
+`cargoCliente` Cargo que será adicinado a pessoa quando concluir o pagamento de algum produto. <br>
 
 ### Em canais:
 
-`logs` Canal onde as logs gerais serão enviadas (criação de produto, etc)
-`entregasStaff` Canal onde as logs de compras serão enviadas (log da staff)
-`entregasMembros` Canal onde as logs de compras serão enviadas (log que os membros podem ver)
-`erros` Canal que serão enviados os erros que acontecerem com o bot
-`avaliacoes` Canal onde os clientes podem avaliar a loja com suas próprias palavras
-`duvidasFrequentes` Canal onde fica as informações da loja, o canal de Duvidas Frequentes
-`logsAcoes` Canal onde as ações como criação de canal, confirmacao de pagamento, etc. serão enviados
-`ticket` Canal onde fica a embed que os membros abrem os tickets
+`logs` Canal onde as logs gerais serão enviadas (criação de produto, etc) <br>
+`entregasStaff` Canal onde as logs de compras serão enviadas (log da staff) <br>
+`entregasMembros` Canal onde as logs de compras serão enviadas (log que os membros podem ver) <br>
+`erros` Canal que serão enviados os erros que acontecerem com o bot <br>
+`avaliacoes` Canal onde os clientes podem avaliar a loja com suas próprias palavras <br>
+`duvidasFrequentes` Canal onde fica as informações da loja, o canal de Duvidas Frequentes <br>
+`logsAcoes` Canal onde as ações como criação de canal, confirmacao de pagamento, etc. serão enviados <br>
+`ticket` Canal onde fica a embed que os membros abrem os tickets <br>
 
 ### Em atendimento:
 
@@ -89,27 +89,27 @@ horario: {
 
 ### Em tickets:
 
-`cargosStaff` Cargos que podem ver todos os tickets abertos naquela categoria
-`categoria` Categoria em que os canais serão abertos
+`cargosStaff` Cargos que podem ver todos os tickets abertos naquela categoria <br>
+`categoria` Categoria em que os canais serão abertos <br>
 
 ### Em compras:
 
 ### Robux:
 
-`categoria` ID da categoria em que os carrinhos de robux serão abertos
-`cargosStaff` ID de todos os cargos que podem ver os carrinhos abertos naquela categoria
-`valor` Se refere a 1000, ou seja, se o valor for 28, 1000 robux = 28.0R$
-`minimo`  Valor mínimo de robux que podem ser comprados por carrinho 
-`maximo` Valor máximo de robux que podem ser comprados por carrinho
+`categoria` ID da categoria em que os carrinhos de robux serão abertos <br>
+`cargosStaff` ID de todos os cargos que podem ver os carrinhos abertos naquela categoria <br>
+`valor` Se refere a 1000, ou seja, se o valor for 28, 1000 robux = 28.0R$ <br>
+`minimo`  Valor mínimo de robux que podem ser comprados por carrinho  <br>
+`maximo` Valor máximo de robux que podem ser comprados por carrinho <br>
 
 ### Gamepass
 
-`categoria` ID da categoria em que os carrinhos de gamepass serão abertos
-`cargosStaff` ID de todos os cargos que podem ver os carrinhos abertos naquela categoria
-`valor` Se refere a 1000, ou seja, se o valor for 35, 1000 robux = 35.0R$
-`maximoGamepass` Quantia máxima de gamepasses que podem ser comprados por carrinho
-`minimo` Valor mínimo que as gamepasses devem ter no total
-`maximo`Valor máximo que as gamepasses devem ter no total
+`categoria` ID da categoria em que os carrinhos de gamepass serão abertos <br>
+`cargosStaff` ID de todos os cargos que podem ver os carrinhos abertos naquela categoria <br>
+`valor` Se refere a 1000, ou seja, se o valor for 35, 1000 robux = 35.0R$ <br>
+`maximoGamepass` Quantia máxima de gamepasses que podem ser comprados por carrinho <br>
+`minimo` Valor mínimo que as gamepasses devem ter no total <br>
+`maximo`Valor máximo que as gamepasses devem ter no total <br>
 
 ## Configurando o banco de dados
 
