@@ -11,25 +11,45 @@ Utilize o arquivo `start.bat` para iniciar o bot sem a necessidade do VSCode abe
 
 ## `config.js`
 
-```
-{
-  "token": "Token do bot",
-  "prefix": "Prefixo usado para comandos com message commands",
-  "guild_id": "ID do servidor principal onde o bot deve funcionar",
-  "client_id": "ID do bot",
-  "owner_id": "ID do proprietário do bot (seu ID)"
+```bash
+const config: Config = {
+    token: "",
+    # O token do seu bot
+
+    guild_id: "",
+    # ID do servidor principal do bot
+    client_id: "",
+    # ID do bot
+    owner_id: ""
+    # ID do dono do bot
 }
 ```
+
+> [!NOTE]
+> Se você configurar o `guild_id` como: `guild_id: null` os comandos serão registrados globalmente.
+> Para configurar os comandos em apenas um servidor, configure como `guild_id: "ID DO SERVIDOR"`
 
 ## `settings.js`
 
-```
-{
-  "color": "Cor de todas as embeds enviadas pelo bot (usando o formato hex)",
-  "titulo": "Título das embeds",
-  "footer": "Rodapé das embeds",
-  "prefix": "O mesmo prefixo configurado no arquivo config.json"
-}
+```bash
+const settings = {
+    color: "#2B2D31",
+    # Cor de todas as embeds do bot em formato hex
+    titulo: "Nest Store 👑",
+    # Titulo que aparecerá em todas as embeds
+    footer: "Copyright © 2022-2024, Nest Store. Todos os direitos reservados.",
+    # Footer que aparecerá em todas as embeds
+
+    cooldowns: {
+        message: "Aguarde: `<duration>` para executar o comando novamente!"
+    },
+    # Mensagem de erro que é mostrada quando um comando está em delay
+
+    erromsg: {
+        titulo: "🤔 Encontrei um problema!"
+    }
+    # Mensagem de erro que é mostrada quando algum erro acontece em um comando
+};
 ```
 
 # Status do Bot
