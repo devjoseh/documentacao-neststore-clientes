@@ -2,8 +2,8 @@
 ## 👑 _Documentação - Find Suspect User - V13.x & V14.x_
 
 > [!NOTE]
-> Esse bot foi desenvolvido para estudos e não tem intensão de invadir ou de alguma forma prejudicar nenhum servidor do discord.
-> This bot was developed for study purposes and has no intention of invading or in any way harming any discord server.
+> Esse bot foi desenvolvido para estudos e não tem intensão de invadir ou de alguma forma prejudicar nenhum servidor do discord. <br>
+> This bot was developed for study purposes and has no intention of invading or in any way harming any discord server. <br>
 
 # 🤖 Instalando e Iniciando o BOT
 
@@ -36,9 +36,9 @@ CLIENT_ID=
 ```
 
 > [!NOTE]
-> Caso deseje usar o bot em mais de um servidor, deixe `GUILD_ID=` em branco.
-> Mas, atenção: qualquer atualização nos comandos, podem demorar de minutos até horas para serem atualizados nos servidores
-> Para configurar os comandos em apenas um servidor, configure como `GUILD_ID=IdDoServidor`
+> Caso deseje usar o bot em mais de um servidor, deixe `GUILD_ID=` em branco. <br>
+> Mas, atenção: qualquer atualização nos comandos, podem demorar de minutos até horas para serem atualizados nos servidores. <br>
+> Para configurar os comandos em apenas um servidor, configure como `GUILD_ID=IdDoServidor`. <br>
 
 Para alterar algumas informações de como as embeds do bot são criadas, vá para `configs > settings`
 
@@ -93,7 +93,7 @@ Nome | Categoria | Descrição
 4. Procure pela opção `Console`.
 5. Coloque o seguinte código:
 
-```bash
+```js
 window.webpackChunkdiscord_app.push([
   [Math.random()],
   {},
