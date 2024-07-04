@@ -63,6 +63,26 @@ const settings = {
 };
 ```
 
+Para definir um nome personalizado para os servidores vá para `configs > servers`
+
+```js
+const servers = {
+    suspectServers: [
+        { serverId: "1101935570827096235", name: "Server Teste" },
+        { serverId: "1183786151618818179", name: "Gosth Personalizado" },
+        { serverId: "", name: "" },
+    ]
+};
+```
+
+Para adicionar um novo servidor, siga o formato:
+
+```js
+{ serverId: "", name: "" },
+// ServerId = ID do servidor
+// Name = Nome personalizado para o servidor
+``` 
+
 Para alterar alguma informação do status do bot, vá para a pasta `events > bot > botReady` para configurar o status do bot.
 
 `activities:` Mensagens exibidas no status do bot.<br>
@@ -74,6 +94,47 @@ Para alterar alguma informação do status do bot, vá para a pasta `events > bo
 `idle` = status ausente<br>
 
 em `let timer` é o tempo que cada mensagem e status serão trocados, o tempo deve ser configurado em segundos
+
+## Configurando o banco de dados
+
+Vá para a pasta `events > client > firebase.js`
+Nesse arquivo é onde deve-se configurar o banco de dados. Segue o tutorial:
+
+1. [Clique aqui](https://firebase.google.com/docs?hl=pt&authuser=0) para acessar o firebase
+2. No canto superior direito, clique em `ir para o console`
+3. Clique no botão de `adicionar projeto`
+4. Coloque o nome da sua loja ou qualquer outro
+5. Desative a opção `Ativar o Google Analytics neste projeto`
+6. Clique em `criar projeto`
+7. No menu lateral esquerdo, clique em `criação`
+8. Selecione a opção `Realtime Database`
+9. Clique em `criar banco de dados`
+10. Verifique se está selecionado `Estados Unidos` e clique em `proxima`
+11. Selecione `iniciar no modo bloqueado` e clique em `ativar`
+12. Em baixo de `Realtime Database`, clique em `Regras`
+13. Altere: `".read"` de `false` para `true`. Faça o mesmo com `".write"`
+14. Clique em publicar
+15. Após isso, clique em `Visão geral do projeto` no lado superior esquerdo
+16. Clique no botão que se parece com: `</>`
+17. Em apelido do app, coloque qualquer nome e não marque a caixa `Configure também...`
+18. Clique em registrar app
+19. Na opção `Usar o npm`
+20. Copie esse código:
+
+```
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
+};
+```
+
+21. No bot, vá para: `events > database > connect` e substitua o código `firebaseConfig` por esse que você copiou
+22. Pronto, banco de dados configurado :D
 
 ## 📂 Comandos
 
@@ -116,3 +177,4 @@ console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 ```
 
 6. Se você tiver feito tudo certo, o token estará copiado na sua área de transferência.
+
