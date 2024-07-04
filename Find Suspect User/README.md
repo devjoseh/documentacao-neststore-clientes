@@ -100,7 +100,7 @@ em `let timer` é o tempo que cada mensagem e status serão trocados, o tempo de
 
 ## Configurando o banco de dados
 
-Vá para a pasta `events > client > firebase.js`
+Vá para a pasta `events > database > connect.js`
 Nesse arquivo é onde deve-se configurar o banco de dados. Segue o tutorial:
 
 1. [Clique aqui](https://firebase.google.com/docs?hl=pt&authuser=0) para acessar o firebase
