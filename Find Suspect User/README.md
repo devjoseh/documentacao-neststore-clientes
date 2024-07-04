@@ -33,6 +33,9 @@ GUILD_ID=
 
 CLIENT_ID=
 # ID do bot
+
+OWNER_ID=
+# ID de quem pode usar o comando de /membros
 ```
 
 > [!NOTE]
