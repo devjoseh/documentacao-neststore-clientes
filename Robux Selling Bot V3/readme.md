@@ -167,12 +167,10 @@ Nome | Categoria | Descrição
 [/manutencao](README.md) | Configurações | Coloca ou remove a loja em manutenção.
 [/preco](README.md) | Configurações | Altera o valor dos Robux ou Gamepass.
 [/status](README.md) | Configurações | Altera o status da loja para Online ou Offline.
-
 [/perfil](README.md) | Geral | Mostra as informações do usuário/outra pessoa.
 [/ping](README.md) | Geral | Mostra o tempo de resposta do bot.
 [/ranking](README.md) | Geral | Mostra o top 10 pessoas com mais dinheiro gasto no servidor.
 [/valor](README.md) | Geral | Visualiza o preço de uma quantia de robux.
-
 [/categoria](README.md) | Staff | Listar, editar ou deletar uma categoria de jogo.
 [/consultar](README.md) | Staff | Visualiza as informações de um pedido específico.
 [/cupom](README.md) | Staff | Listar, editar ou deletar um cupom.
