@@ -162,7 +162,7 @@ Nome | Categoria | Descrição
 [/canal](README.md) | Configurações | Seta um canal em alguma configuração.
 [/cargo](README.md) | Configurações | Seta um cargo em alguma configuração.
 [/configs](README.md) | Configurações | Mostra todas as configurações atuais.
-[/configurar](README.md) | Configurações | Alterar a quantia de mensagens e cooldown para um jogo iniciar.
+[/configurar](README.md) | Configurações | Configura algum dos sistemas
 [/desativar](README.md) | Configurações | Desativar alguma das configurações.
 [/manutencao](README.md) | Configurações | Coloca ou remove a loja em manutenção.
 [/preco](README.md) | Configurações | Altera o valor dos Robux ou Gamepass.
