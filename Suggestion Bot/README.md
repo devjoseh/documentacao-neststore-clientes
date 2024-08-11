@@ -1,5 +1,5 @@
 # Bem-Vindo(a)
-## 👑 _Documentação - Robux Selling Bot - V14.x_
+## 👑 _Documentação - Suggestion Bot - V14.x_
 
 # 🤖 Instalando e Iniciando o BOT
 
@@ -36,58 +36,35 @@ OWNER_ID=
 
 Para alterar algumas informações de como as embeds do bot são criadas, vá para `configs > settings`
 
-```bash
+```js
 const settings = {
     color: "#2B2D31",
-    # Cor de todas as embeds do bot em formato hex
+    // Cor de todas as embeds do bot em formato hex
     titulo: "Nest Store 👑",
-    # Titulo que aparecerá em todas as embeds
+    // Titulo que aparecerá em todas as embeds
     footer: "Copyright © 2022-2024, Nest Store. Todos os direitos reservados.",
-    # Footer que aparecerá em todas as embeds
+    // Footer que aparecerá em todas as embeds
 
     cooldowns: {
         message: "Aguarde: `<duration>` para executar o comando novamente!"
     },
-    # Mensagem de erro que é mostrada quando um comando está em delay
+    // Mensagem de erro que é mostrada quando um comando está em delay
 
     erromsg: {
         titulo: "🤔 Encontrei um problema!"
-    }
-    # Mensagem de erro que é mostrada quando algum erro acontece em um comando
+    },
+    // Mensagem de erro que é mostrada quando algum erro acontece em um comando
+
+    suggestionEmbedImage: ""
+    // Imagem que aparece na embed que os usuários clicam para enviar uma sugestão.
+    // Deixe vazio "" para não aplicar nenhuma imagem;
 };
 ```
 ## Arquivos de Configuração
 
-### Arquivo `configs > embeds.js`
-
-Todas as configurações das embeds enviadas pelo bot. Arquivo já configurado, mas pode ser alterado como desejar.
-
 ### Arquivo `configs > icons.js`
 
 Todas as configurações dos emojis usados pelo bot. Arquivo já configurado, mas pode ser alterado como desejar.
-
-### Arquivo `configs > paymentConfig.js`
-
-`email:` Email do pix cadastrado no mercadopago. <br>
-`nome:` Primeiro nome do titular da conta. <br>
-`sobrenome:` Sobrenome do titular da conta. <br>
-
-### Arquivo `configs > store.js`
-
-Configurações relacionadas a todo o sistema da loja.
-
-#### Em atendimento:
-
-```
-dias: {
-    inicio: "Segunda", // Dia de início dos atendimentos
-    fim: "Sexta" // Dia que acaba os atendimentos
-},
-horario: {
-    inicio: "10:00", // Horário de inicio dos atendimentos
-    fim: "19:00" // Horário que acaba os atendimentos
-}
-```
 
 ## Status do Bot
 
@@ -144,17 +121,6 @@ const firebaseConfig = {
 21. No bot, vá para: `events > database > connect` e substitua o código `firebaseConfig` por esse que você copiou
 22. Pronto, banco de dados configurado :D
 
-## Pegando access token (credencial)
-
-1. [Clique aqui](https://mercadopago.com.br) para acessar o mercado pago
-2. Faça login na sua conta
-3. No menu lateral esquerdo, procure `Seu negócio`, clique e vá em `Configurações`
-4. Faça a verificação
-5. Na caixa `Gestão e Administração`, clique em `Credenciais`
-6. Selecione `Credenciais de Produção`
-7. O código de acesso é o código `Access Token`
-8. **ATENÇÃO: NÃO COMPARTILHE ESTE TOKEN COM NINGUÉM**
-
 ## 📂 Comandos
 
 Nome | Categoria | Descrição
@@ -162,21 +128,8 @@ Nome | Categoria | Descrição
 [/canal](README.md) | Configurações | Seta um canal em alguma configuração.
 [/cargo](README.md) | Configurações | Seta um cargo em alguma configuração.
 [/configs](README.md) | Configurações | Mostra todas as configurações atuais.
-[/configurar](README.md) | Configurações | Alterar a quantia de mensagens e cooldown para um jogo iniciar.
 [/desativar](README.md) | Configurações | Desativar alguma das configurações.
-[/manutencao](README.md) | Configurações | Coloca ou remove a loja em manutenção.
-[/preco](README.md) | Configurações | Altera o valor dos Robux ou Gamepass.
-[/status](README.md) | Configurações | Altera o status da loja para Online ou Offline.
-[/perfil](README.md) | Geral | Mostra as informações do usuário/outra pessoa.
 [/ping](README.md) | Geral | Mostra o tempo de resposta do bot.
-[/ranking](README.md) | Geral | Mostra o top 10 pessoas com mais dinheiro gasto no servidor.
-[/valor](README.md) | Geral | Visualiza o preço de uma quantia de robux.
-[/categoria](README.md) | Staff | Listar, editar ou deletar uma categoria de jogo.
-[/consultar](README.md) | Staff | Visualiza as informações de um pedido específico.
-[/cupom](README.md) | Staff | Listar, editar ou deletar um cupom.
-[/demanda](README.md) | Staff | Visualiza quantos robux estão pendentes para entrega.
-[/entregar](README.md) | Staff | Faz a entrega de um pedido.
-[/estatisticas](README.md) | Staff | Visualiza as estatisticas da loja em geral.
 [/help](README.md) | Staff | Visualiza todos os comandos do bot.
 [/painel](README.md) | Staff | Envia a embed de alguma opção do painel.
-[/pedidos](README.md) | Staff | Lista todos os pedidos concluidos e pendentes.
+[/sugestao](README.md) | Staff | Aprova ou Nega uma sugestão feita no servidor.
